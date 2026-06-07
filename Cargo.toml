@@ -3,6 +3,8 @@ name = "forge"
 version = "0.2.0"
 edition = "2024"
 repository = "https://github.com/naylour/forge"
+description = "Setup utility for ingot-based projects"
+license = "MIT"
 
 [dependencies]
 anyhow = "1"

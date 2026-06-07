@@ -1,0 +1,5 @@
+{
+	"languages": {
+		"Pkl": { "language_servers": ["!pkl"] }
+	}
+}

@@ -1,0 +1,15 @@
+[package]
+name = "forge"
+version = "0.0.1"
+edition = "2024"
+repository = "https://github.com/naylour/forge"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+which = "8"
+dirs = "6"
+
+[profile.dist]
+inherits = "release"
+lto = "thin"

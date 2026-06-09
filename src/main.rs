@@ -1,10 +1,11 @@
-mod steps;
-
-use anyhow::Result;
+use clap::Parser;
+use forge::cli::Cli;
+use miette::Result;
 
 fn main() -> Result<()> {
-    steps::hk::run()?;
-    steps::age::run()?;
+    let cli = Cli::parse();
 
-    Ok(())
+    // println!("{:?}", cli);
+
+    cli.command.run(&cli)
 }

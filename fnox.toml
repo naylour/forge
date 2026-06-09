@@ -1,0 +1,12 @@
+default_provider = "forge"
+
+[providers.forge]
+type = "age"
+recipients = ["age1gj2ryywkkryrnx7xtcy8n39xg5xh8ry4wcth08q9wfxnueh6us7syzqqzy"]
+
+[secrets.DATABASE_PORT]
+provider = "forge"
+value = "YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBuZ00wU21vUC9CY3BycEhkOFlWd1JMWmhrdmFWd2xKNG44dWlvTjE4Qnl3Cmgvc2lIQW4rbDVwMDc4eGZkYXZIcEVxQmt3bW42RS9DU2phNnFqNzFSN3cKLT4ganwjISQtZ3JlYXNlIDN5UkYoIGQtNCtfWiBBZ0IKRGtDdWJHeEFsVGp3dGpFQmhrUWg2VXA1NTRiS2psdTVPVmNsY2FzeVBkK1ovclNNaXhzdmtGc0tJaTFxcjdPYgpqMi90anNaVnhhL0o3anB0V0dPZUs0K2lWZ1pTdnZocFNZQkkzQQotLS0gSHNUWmduR2IwSmVFYjdGR09XV3Mxd0VRV3djVHRFTW8wZy96VzRCYzIvawqD3L7PTbCAmSA7xI8QSbLlaVau1mCKD30cZnRGHPNqB3RuK6Y="
+default = "50200"
+description = "[number] Database port env example"
+if_missing = "ignore"

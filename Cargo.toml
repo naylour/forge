@@ -48,3 +48,14 @@ tabled = { version = "0.20", features = ["ansi"] }
 [profile.dist]
 inherits = "release"
 lto = "thin"
+
+[profile.dev]
+incremental = true
+
+[profile.release]
+debug = 0
+codegen-units = 1
+lto = "fat"
+opt-level = "z"
+panic = "abort"
+strip = true
